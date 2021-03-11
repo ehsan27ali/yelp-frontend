@@ -1,7 +1,9 @@
+import { LandingPage } from "./LandingPage/LandingPage";
 
 function App() {
   return (
-    <p>Test</p>
+    <LandingPage/>
+
   );
 }
 
