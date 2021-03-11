@@ -1,3 +1,7 @@
 .input-control {
     min-width: 600px;
 }
+
+:global(.button).search-button {
+    background: #FA824C;
+}

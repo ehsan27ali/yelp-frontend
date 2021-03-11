@@ -6,12 +6,12 @@ export function SearchBar() {
         <div>
             <div className="field has-addons">
                 <div className="control">
-                    <input className={`input ${styles['input-control']}`} type="text" placeholder="Enter Location"/>
+                    <input className={`input is-large ${styles['input-control']}`} type="text" placeholder="Enter Location"/>
                 </div>
                 <div className="control">
-                    <a className="button is-info">
+                    <div className={`button is-large is-info ${styles['search-button']}`}>
                         Search
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
