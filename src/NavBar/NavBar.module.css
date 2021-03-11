@@ -2,8 +2,10 @@
     display: flex;
     background: #FFE7B8;
     padding: 1rem 0;
+    justify-content: center;
 }
 
 .logo {
     width: 250px;
+    margin-right: 1rem;
 }
