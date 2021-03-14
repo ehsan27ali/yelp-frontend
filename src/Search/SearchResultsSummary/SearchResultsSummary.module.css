@@ -1,0 +1,17 @@
+.search-summary {
+    padding: 2rem 0;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-summary p {
+    font-size: .9rem;
+}
+.container {
+    background: #FFEECC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
