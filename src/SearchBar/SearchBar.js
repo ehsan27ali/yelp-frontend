@@ -20,7 +20,8 @@ export function SearchBar(props) {
                 <div className="control">
                     <input className={`input is-large ${styles['input-control']}`} 
                         onChange={(e) => setLocation(e.target.value)}
-                        type="text" 
+                        type="text"
+                        value={ location }
                         placeholder="Enter Location"
                     />
                 </div>

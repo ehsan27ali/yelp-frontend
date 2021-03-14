@@ -1,0 +1,12 @@
+.score {
+    display: flex;
+    align-items: center;
+}
+
+.score > * {
+    margin-right: 10px;
+}
+
+.score p {
+    font-size: .85rem;
+}
